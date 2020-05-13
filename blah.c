@@ -10,6 +10,9 @@ int main() {
 		x[i] = i * i;
 	}
 
+	x[2] = 99;
+	x[3] = 100;
+
 	for (int i=0; i<n; i++) {
 		printf("x[%d]=%d\n", i, x[i]);
 	}

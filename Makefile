@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -O2
+CFLAGS = -Wall -g
 
 all: blah
 
@@ -8,4 +8,3 @@ blah: blah.c
 
 clean:
 	rm -f blah
-	
